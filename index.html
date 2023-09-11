@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>test-site</title>
+  </head>
+  <body>
+    <!-- меню боковое -->
+    <ul id="slide-out" class="sidenav">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="../siteFigma/img/фон.jpg" />
+          </div>
+          <a href="#user"
+            ><img class="circle" src="../siteFigma/img/аватар.jpg"
+          /></a>
+          <a href="#name"><span class="white-text name">Kseni</span></a>
+          <a href="#email"
+            ><span class="white-text email">kseni@gmail.com</span></a
+          >
+        </div>
+      </li>
+      <li>
+        <a href="#home"><i class="material-icons">home</i>ГЛАВНАЯ</a>
+      </li>
+
+      <li>
+        <a href="#about"
+          ><i class="material-icons">person_outline</i>ОБ АВТОРЕ</a
+        >
+      </li>
+
+      <li>
+        <a href="#gallery"><i class="material-icons">burst_mode</i>PАБОТЫ</a>
+      </li>
+
+      <li>
+        <a href="#work"><i class="material-icons">build</i>ПРОЦЕСС</a>
+      </li>
+
+      <li>
+        <a href="#order"><i class="material-icons">contacts</i>КОНТАКТЫ</a>
+      </li>
+    </ul>
+    <header id="home">
+      <div class="container">
+        <div class="header__title__flex">
+          <div class="logo">WD</div>
+          <div class="header__menu__flex">
+            <a href="#home" class="header__menu-item"
+              ><p class="p-header">ГЛАВНАЯ</p></a
+            >
+            <a href="#about" class="header__menu-item"
+              ><p class="p-header">ОБ АВТОРЕ</p></a
+            >
+            <a href="#gallery" class="header__menu-item"
+              ><p class="p-header">PАБОТЫ</p></a
+            >
+            <a href="#work" class="header__menu-item"
+              ><p class="p-header">ПРОЦЕСС</p></a
+            >
+            <a href="#order" class="header__menu-item"
+              ><p class="p-header">КОНТАКТЫ</p></a
+            >
+          </div>
+
+          <a class="burger sidenav-trigger" data-target="slide-out">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+          </a>
+        </div>
+        <div class="header__body__flex">
+          <img src="img/computer.png" alt="" class="computer" />
+          <div class="header__body-text">
+            <h1 class="head_title">Дизайн и верстка</h1>
+            <p class="head-text text-p">
+              Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+              вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
+              на латинице с начала XVI века.
+            </p>
+            <button class="head-btn">НАПИСАТЬ МНЕ</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="title__about">
+          <h2 class="text-h2 about-h2">Обо мне</h2>
+          <p class="text-p about-p">
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+            латинице с начала XVI века.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="container">
+        <div class="work__flex">
+          <div class="work__card-flex">
+            <img src="img/project.svg" alt="" class="project" />
+            <div class="work-text">
+              <h3 class="text-h3">40+</h3>
+              <p class="text-p p-work">проектов</p>
+            </div>
+          </div>
+
+          <div class="work__card-flex">
+            <img src="img/project.svg" alt="" class="project" />
+            <div class="work-text">
+              <h3 class="text-h3">40+</h3>
+              <p class="text-p p-work">проектов</p>
+            </div>
+          </div>
+
+          <div class="work__card-flex">
+            <img src="img/project.svg" alt="" class="project" />
+            <div class="work-text">
+              <h3 class="text-h3">40+</h3>
+              <p class="text-p p-work">проектов</p>
+            </div>
+          </div>
+
+          <div class="work__card-flex">
+            <img src="img/project.svg" alt="" class="project" />
+            <div class="work-text">
+              <h3 class="text-h3">40+</h3>
+              <p class="text-p p-work">проектов</p>
+            </div>
+          </div>
+
+          <div class="work__card-flex">
+            <img src="img/project.svg" alt="" class="project" />
+            <div class="work-text">
+              <h3 class="text-h3">40+</h3>
+              <p class="text-p p-work">проектов</p>
+            </div>
+          </div>
+
+          <div class="work__card-flex">
+            <img src="img/project.svg" alt="" class="project" />
+            <div class="work-text">
+              <h3 class="text-h3">40+</h3>
+              <p class="text-p p-work">проектов</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="avatar">
+      <div class="container">
+        <div class="avatar__flex">
+          <div class="avatar__flex-left">
+            <h2 class="text-h2 avatar-h2">Мои навыки</h2>
+            <div class="avatar__flex-item">
+              <p class="text-p avatar-p">Adobe Photoshop</p>
+              <div class="line">
+                <div class="min_line"></div>
+              </div>
+            </div>
+
+            <div class="avatar__flex-item">
+              <p class="text-p avatar-p">Adobe Photoshop</p>
+              <div class="line">
+                <div class="min_line"></div>
+              </div>
+            </div>
+
+            <div class="avatar__flex-item">
+              <p class="text-p avatar-p">Adobe Photoshop</p>
+              <div class="line">
+                <div class="min_line"></div>
+              </div>
+            </div>
+          </div>
+          <img src="img/avatar.png" alt="" class="avatar__flex-right" />
+        </div>
+      </div>
+    </section>
+
+    <section class="video_block">
+      <div class="container">
+        <div class="title__video">
+          <h2 class="text-h2 video-h2">Как я работаю</h2>
+          <p class="text-p video-p">
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+            латинице с начала XVI века.
+          </p>
+        </div>
+        <div class="video">
+          <div class="embed-container">
+            <iframe
+              src="https://www.youtube.com/embed/ITXVIK8KZuI"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="gallery__grid">
+        <div class="gallery__grid-item">
+          <img src="img/photo.png" alt="" class="gallery-photo materialboxed" />
+        </div>
+
+        <div class="gallery__grid-item">
+          <img
+            src="img/photo2.png"
+            alt=""
+            class="gallery-photo materialboxed"
+          />
+        </div>
+
+        <div class="gallery__grid-item">
+          <img src="img/photo.png" alt="" class="gallery-photo materialboxed" />
+        </div>
+
+        <div class="gallery__grid-item">
+          <img
+            src="img/photo2.png"
+            alt=""
+            class="gallery-photo materialboxed"
+          />
+        </div>
+
+        <div class="gallery__grid-item">
+          <img src="img/photo.png" alt="" class="gallery-photo materialboxed" />
+        </div>
+
+        <div class="gallery__grid-item">
+          <img
+            src="img/photo2.png"
+            alt=""
+            class="gallery-photo materialboxed"
+          />
+        </div>
+
+        <div class="gallery__grid-item">
+          <img src="img/photo.png" alt="" class="gallery-photo materialboxed" />
+        </div>
+
+        <div class="gallery__grid-item">
+          <img
+            src="img/photo2.png"
+            alt=""
+            class="gallery-photo materialboxed"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="patners">
+      <div class="container">
+        <div class="patners__flex">
+          <div class="patners__flex-item">
+            <img src="img/patner.png" alt="" class="patner-company" />
+          </div>
+
+          <div class="patners__flex-item">
+            <img src="img/patner.png" alt="" class="patner-company" />
+          </div>
+
+          <div class="patners__flex-item">
+            <img src="img/patner.png" alt="" class="patner-company" />
+          </div>
+
+          <div class="patners__flex-item">
+            <img src="img/patner.png" alt="" class="patner-company" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="order" id="order">
+      <div class="container">
+        <div class="title__order">
+          <h2 class="text-h2 order-h2">Хотите веб-сайт?</h2>
+          <p class="text-p order-p">
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+            латинице с начала XVI века.
+          </p>
+        </div>
+        <div class="body__order">
+          <form action="">
+            <div class="input__flex">
+              <input type="text" placeholder="Ваше имя" />
+              <input type="email" placeholder="Ваш email" />
+            </div>
+            <textarea placeholder="Вашe сообщение"></textarea>
+          </form>
+          <button class="order-btn">ОТПРАВИТЬ</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer__flex">
+          <div class="footer__flex-left">
+            <h3 class="text-h3 footer-h3">Иванов Иван</h3>
+            <div class="text-p footer-p">(с) 2018. Все права защищены.</div>
+          </div>
+          <div class="footer__flex-right">
+            <i class="material-icons">account_circle</i>
+            <i class="material-icons">account_circle</i>
+            <i class="material-icons">account_circle</i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
