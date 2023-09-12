@@ -138,6 +138,7 @@ body {
   background-color: green;
   color: white;
 }
+
 .exit-btn:hover {
   background-color: red;
   color: white;
@@ -518,6 +519,18 @@ header {
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+  }
+
+  .avatar__flex-right {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width:380px) {
+  .avatar__flex-right {
+    width: 250px;
+    height: 250px;
   }
 }
 
