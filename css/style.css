@@ -279,6 +279,7 @@ header {
 .head-btn:hover {
   background-color: var(--white);
   color: var(--dark_blue);
+  border: 3px solid var(--dark_blue);
 
 }
 
@@ -318,6 +319,7 @@ header {
 
   .header__menu__flex {
     display: none;
+    align-items: flex-end;
   }
 
   .burger {
@@ -747,6 +749,7 @@ textarea {
 .order-btn:hover {
   background-color: var(--white);
   color: var(--dark_blue);
+  border: 3px solid var(--dark_blue);
 }
 
 @media screen and (max-width:1280px) {
