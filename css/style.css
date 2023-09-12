@@ -6,6 +6,7 @@ html {
 
 }
 
+
 *,
 *::before,
 *::after {
@@ -71,6 +72,105 @@ body {
   margin: 0 auto;
 }
 
+/*input in the menu*/
+
+.registration {
+  display: block;
+  text-align: center;
+}
+
+#name {
+  height: 30px;
+  width: 230px;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text_gray);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  background-color: bisque;
+  margin-bottom: 0px;
+  border: none;
+}
+
+#name::placeholder {
+  padding-left: 0px;
+}
+
+#email::placeholder {
+  padding-left: 4px;
+}
+
+#email {
+  height: 30px;
+  width: 230px;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text_gray);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  background-color: bisque;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text_gray);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.exit-btn,
+.form-btn {
+  text-align: center;
+  border: none;
+  height: 30px;
+  width: 100px;
+  background-color: bisque;
+  color: var(--text_gray);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  background-color: green;
+  color: white;
+}
+.exit-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+.client_info {
+  display: none;
+  text-align: center;
+}
+
+.client_name,
+.client_email {
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+  letter-spacing: -1px;
+  line-height: 25px;
+
+}
+
+.client_name {
+  margin-bottom: 10px;
+}
+
+.client_email {
+  margin-bottom: 10px;
+}
+
+
+/*HEADER*/
 header {
   padding-top: 50px;
   padding-bottom: 146px;
@@ -167,11 +267,13 @@ header {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 1.6px;
+  border: none;
 }
 
 .head-btn:hover {
   background-color: var(--white);
   color: var(--dark_blue);
+
 }
 
 .burger {
@@ -559,6 +661,12 @@ input {
   width: 255px;
   height: 50px;
   margin-right: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text_gray);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 15px;
 }
 
 input:nth-last-child() {
@@ -578,6 +686,12 @@ textarea {
   height: 175px;
   margin-bottom: 50px;
   resize: none;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text_gray);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 15px;
 }
 
 .body__order {
@@ -609,9 +723,10 @@ textarea {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 1.6px;
+  border: none;
 }
 
-.head-btn:hover {
+.order-btn:hover {
   background-color: var(--white);
   color: var(--dark_blue);
 }

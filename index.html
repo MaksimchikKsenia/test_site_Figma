@@ -20,17 +20,33 @@
     <!-- меню боковое -->
     <ul id="slide-out" class="sidenav">
       <li>
-        <div class="user-view">
-          <div class="background">
-            <img src="../siteFigma/img/фон.jpg" />
-          </div>
+        <div
+          class="user-view"
+          style="background-image: url('../siteFigma/img/фон.jpg')"
+        >
           <a href="#user"
-            ><img class="circle" src="../siteFigma/img/аватар.jpg"
-          /></a>
-          <a href="#name"><span class="white-text name">Kseni</span></a>
+            ><img
+              class="circle"
+              style="margin: 0 auto 10px"
+              src="../siteFigma/img/аватар.jpg"
+            />
+          </a>
+          <!-- <a href="#name"><span class="white-text name">Kseni</span></a>
           <a href="#email"
             ><span class="white-text email">kseni@gmail.com</span></a
-          >
+          > -->
+          <div class="registration">
+            <form>
+              <input type="text" id="name" placeholder=" Ваше имя" />
+              <input type="email" id="email" placeholder="Ваш email" />
+              <button type="submit" class="form-btn">Войти</button>
+            </form>
+          </div>
+          <div class="client_info">
+            <p class="client_name"></p>
+            <p class="client_email"></p>
+            <button class="exit-btn">Выйти</button>
+          </div>
         </div>
       </li>
       <li>
@@ -78,9 +94,9 @@
           </div>
 
           <a class="burger sidenav-trigger" data-target="slide-out">
-                    <span class="burger__line"></span>
-                    <span class="burger__line"></span>
-                    <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
           </a>
         </div>
         <div class="header__body__flex">
