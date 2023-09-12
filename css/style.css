@@ -135,12 +135,12 @@ body {
 }
 
 .form-btn:hover {
-  background-color: green;
+  background-color: rgb(144, 206, 144);
   color: white;
 }
 
 .exit-btn:hover {
-  background-color: red;
+  background-color: rgb(254, 158, 158);
   color: white;
 }
 
